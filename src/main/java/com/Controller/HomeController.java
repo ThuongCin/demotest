@@ -16,6 +16,12 @@ public class HomeController {
         List<Product> giays = ProductService.getAll();
         model.addAttribute("giays", giays);
         return "index";
+        return "index";
+        return "index";
+        return "index";
+        return "index";'
+        return "index";
+        
     }
     @GetMapping("/gioithieu")
     public String about() {return "about"; }
